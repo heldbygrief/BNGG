@@ -1,6 +1,6 @@
 <div align="center">
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/97b7c3ba-57f8-4e8c-a7a4-f6441043ecff" width="20%" height="20%">
+  <img src="https://github.com/user-attachments/assets/02d06698-5f8a-41dd-8d8f-1e50a4f45f82" style="border-radius: 20px" width="20%" height="20%">
 </p>
   
 <h1> BuildNow GG </h1>
