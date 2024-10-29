@@ -5,7 +5,6 @@
   
 <h1> BuildNow GG </h1>
 <h4> This is a shitty optimization of a knock off fort building game hosted on github for speed and reliablility. </h4>
-
 </div>
 
 # Todo...
@@ -18,3 +17,5 @@
 - [ ] Deobfsucate the GameLoader and GameLoader Helper
 - [ ] Webasmblly cheetos / features
 - [ ] Websocket interpretor.
+
+* Hosted on github Here - [BuildNowGG](http://cloudirector.is-a.dev/BuildNowGG/)
