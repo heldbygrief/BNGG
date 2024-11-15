@@ -95,8 +95,8 @@ function _0x1c20(_0x542433, _0x26918b) {
                 for (var _0x451a1b = 0x0, _0x553d6f = _0x2eee7e['length']; _0x451a1b < _0x553d6f; _0x451a1b++) {
                     _0x51ff53 += '%' + ('00' + _0x2eee7e['charCodeAt'](_0x451a1b)['toString'](0x10))['slice'](-0x2);
                 }
-                // Might be output from decode
-                console.log(decodeURIComponent(_0x51ff53));
+                // all strings pass through here
+                // console.log(decodeURIComponent(_0x51ff53));
                 return decodeURIComponent(_0x51ff53);
             };
             var _0x3075e1 = function(_0x211092, _0x5b6b8a) {
