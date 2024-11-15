@@ -1,5 +1,6 @@
 # Deobfuscation notes
 
+## Gameloader2020.js
 ```javascript
 var _0x358970 = function(_0x17c880) {
     var _0x5ad2d9 = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';
