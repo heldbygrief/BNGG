@@ -14,8 +14,9 @@
   - [ ] RosieUI
   - [ ] FontAwesome
 - [ ] Learn the BuildNow Framework
-- [ ] Deobfsucate the GameLoader and GameLoader Helper
+- [ ] Deobfsucat[e the GameLoader and GameLoader Helper
+  - [ ] [Notes](https://github.com/cloudirector/BuildNowGG/blob/main/notes.md)
 - [ ] Webasmblly cheetos / features
 - [ ] Websocket interpretor.
 
-* Hosted on github Here - [BuildNowGG](http://cloudirector.is-a.dev/BuildNowGG/)
+* Hosted on github pages Here - [BuildNowGG](http://cloudirector.is-a.dev/BuildNowGG/)
