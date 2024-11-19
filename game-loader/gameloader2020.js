@@ -1,14 +1,16 @@
 var _0xodr = 'jsjiami.com.v7';
+// _0x1cbb34 outputs plaintext points to _0x1c20
 var _0x1cbb34 = _0x1c20;
 (function(_0x3f3dfc, _0x2bc1ba, _0xb8f32a, _0x1dd495, _0x4683f1, _0x429763, _0x55856d) {
     return _0x3f3dfc = _0x3f3dfc >> 0x8, _0x429763 = 'hs', _0x55856d = 'hs',
         function(_0x55bf74, _0x2b24ae, _0xfcd19, _0x5ce12c, _0x46dfce) {
+            // might be another pointer to plaintext output
             var _0x4dfb7a = _0x1c20;
-            _0x5ce12c = 'tfi', _0x429763 = _0x5ce12c + _0x429763, _0x46dfce = 'up', _0x55856d += _0x46dfce, _0x429763 = _0xfcd19(_0x429763), _0x55856d = _0xfcd19(_0x55856d), _0xfcd19 = 0x0;
+            _0x5ce12c = 'tfi', _0x429763 = _0x5ce12c + _0x429763, _0x46dfce = 'up', _0x55856d += _0x46dfce, _0x429763 = _0xfcd19(_0x429763), _0x55856d = _0xfcd19(_0x55856d), _0xfcd19 = 0;
             var _0x17b1ab = _0x55bf74();
             while (!![] && --_0x1dd495 + _0x2b24ae) {
                 try {
-                    _0x5ce12c = parseInt(_0x4dfb7a(0x1db, 'k1Wx')) / 0x1 * (parseInt(_0x4dfb7a(0x128, 'ws9x')) / 0x2) + parseInt(_0x4dfb7a(0x18e, 'rCcn')) / 0x3 + -parseInt(_0x4dfb7a(0x1d8, 'h$Gf')) / 0x4 * (parseInt(_0x4dfb7a(0x18b, 'b9VU')) / 0x5) + -parseInt(_0x4dfb7a(0x1cd, '*GW^')) / 0x6 * (parseInt(_0x4dfb7a(0x1e3, 'ws9x')) / 0x7) + -parseInt(_0x4dfb7a(0x1de, 'b9VU')) / 0x8 + parseInt(_0x4dfb7a(0x179, 'uQp!')) / 0x9 + -parseInt(_0x4dfb7a(0x1b0, 'h$Gf')) / 0xa;
+                    _0x5ce12c = parseInt(_0x4dfb7a(0x1db, 'k1Wx')) / 1 * (parseInt(_0x4dfb7a(0x128, 'ws9x')) / 2) + parseInt(_0x4dfb7a(0x18e, 'rCcn')) / 3 + -parseInt(_0x4dfb7a(0x1d8, 'h$Gf')) / 4 * (parseInt(_0x4dfb7a(0x18b, 'b9VU')) / 5) + -parseInt(_0x4dfb7a(0x1cd, '*GW^')) / 6 * (parseInt(_0x4dfb7a(0x1e3, 'ws9x')) / 7) + -parseInt(_0x4dfb7a(0x1de, 'b9VU')) / 8 + parseInt(_0x4dfb7a(0x179, 'uQp!')) / 9 + -parseInt(_0x4dfb7a(0x1b0, 'h$Gf')) / 0xa;
                 } catch (_0x442178) {
                     _0x5ce12c = _0xfcd19;
                 } finally {
@@ -26,7 +28,7 @@ var _0x1cbb34 = _0x1c20;
                 }
             }
         }(_0xb8f32a, _0x2bc1ba, function(_0x2757c1, _0x564467, _0xa79615, _0x54a03e, _0x5a3423, _0x7112d0, _0x5156ff) {
-            return _0x564467 = '\x73\x70\x6c\x69\x74', _0x2757c1 = arguments[0x0], _0x2757c1 = _0x2757c1[_0x564467](''), _0xa79615 = '\x72\x65\x76\x65\x72\x73\x65', _0x2757c1 = _0x2757c1[_0xa79615]('\x76'), _0x54a03e = '\x6a\x6f\x69\x6e', (0x16dd60, _0x2757c1[_0x54a03e](''));
+            return _0x564467 = '\x73\x70\x6c\x69\x74', _0x2757c1 = arguments[0], _0x2757c1 = _0x2757c1[_0x564467](''), _0xa79615 = '\x72\x65\x76\x65\x72\x73\x65', _0x2757c1 = _0x2757c1[_0xa79615]('\x76'), _0x54a03e = '\x6a\x6f\x69\x6e', (0x16dd60, _0x2757c1[_0x54a03e](''));
         });
 }(0xc400, 0x6101a, _0xbac2, 0xc6), _0xbac2) && (_0xodr = _0xbac2);
 var disableLinks = [_0x1cbb34(0x1e8, 'IKaJ'), _0x1cbb34(0x18c, '&g9m'), _0x1cbb34(0x1c2, '*GW^'), _0x1cbb34(0x11f, 'b9VU')],
@@ -52,9 +54,10 @@ var disableLinks = [_0x1cbb34(0x1e8, 'IKaJ'), _0x1cbb34(0x18c, '&g9m'), _0x1cbb3
             }
         }), _0x5edd35;
     },
-    ref = document[_0x1cbb34(0x175, 'ot&f')]['replace'](/^https?:\/\//, '')[_0x1cbb34(0x132, 'k1Wx')](0x0, -0x1),
+    ref = document[_0x1cbb34(0x175, 'ot&f')]['replace'](/^https?:\/\//, '')[_0x1cbb34(0x132, 'k1Wx')](0, -0x1),
     isOnOurWeb = externalLinksCheck(disableLinks),
     loaderLang = '',
+    // Simple dict for text need figure out _0x1cbb34
     loaderLangText = {
         'ru': {
             'logo': _0x1cbb34(0x1ba, 'Wf4Y'),
@@ -77,52 +80,87 @@ var disableLinks = [_0x1cbb34(0x1e8, 'IKaJ'), _0x1cbb34(0x18c, '&g9m'), _0x1cbb3
             'moreGamesTxt': 'Ð‘Ñ–Ð»ÑŒÑˆÐµ\x20Ñ–Ð³Ð¾Ñ€\x20Â»',
             'moreGamesLink': _0x1cbb34(0x14c, '0494')
         }
+        
     };
 
+    // Plain text decode just needing keys (look in 0x1ba use key Wf4y)
+    // console.log(_0x1cbb34(0x1ba, 'Wf4Y'));
+
+// main output function ends around line 150
 function _0x1c20(_0x542433, _0x26918b) {
     var _0xbac241 = _0xbac2();
     return _0x1c20 = function(_0x1c2002, _0xae442) {
         _0x1c2002 = _0x1c2002 - 0x11c;
         var _0x1ac0e1 = _0xbac241[_0x1c2002];
         if (_0x1c20['KOHgtK'] === undefined) {
+            // _0x358970 decode function
             var _0x358970 = function(_0x17c880) {
                 var _0x5ad2d9 = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';
                 var _0x2eee7e = '',
                     _0x51ff53 = '';
-                for (var _0x2ae5af = 0x0, _0x9f357a, _0x250723, _0x31183b = 0x0; _0x250723 = _0x17c880['charAt'](_0x31183b++); ~_0x250723 && (_0x9f357a = _0x2ae5af % 0x4 ? _0x9f357a * 0x40 + _0x250723 : _0x250723, _0x2ae5af++ % 0x4) ? _0x2eee7e += String['fromCharCode'](0xff & _0x9f357a >> (-0x2 * _0x2ae5af & 0x6)) : 0x0) {
+                for (var _0x2ae5af = 0, _0x9f357a, _0x250723, _0x31183b = 0; _0x250723 = _0x17c880['charAt'](_0x31183b++); ~_0x250723 && (_0x9f357a = _0x2ae5af % 0x4 ? _0x9f357a * 64 + _0x250723 : _0x250723, _0x2ae5af++ % 0x4) ? _0x2eee7e += String['fromCharCode'](0xff & _0x9f357a >> (-0x2 * _0x2ae5af & 6)) : 0) {
                     _0x250723 = _0x5ad2d9['indexOf'](_0x250723);
                 }
-                for (var _0x451a1b = 0x0, _0x553d6f = _0x2eee7e['length']; _0x451a1b < _0x553d6f; _0x451a1b++) {
+                for (var _0x451a1b = 0, _0x553d6f = _0x2eee7e['length']; _0x451a1b < _0x553d6f; _0x451a1b++) {
                     _0x51ff53 += '%' + ('00' + _0x2eee7e['charCodeAt'](_0x451a1b)['toString'](0x10))['slice'](-0x2);
                 }
                 // all strings pass through here
                 // console.log(decodeURIComponent(_0x51ff53));
                 return decodeURIComponent(_0x51ff53);
             };
-            var _0x3075e1 = function(_0x211092, _0x5b6b8a) {
+            // returns some string
+            var retSomeString = function(_0x211092, _0x5b6b8a) {
                 var _0x152036 = [],
-                    _0x7b9658 = 0x0,
-                    _0x49261b, _0x4a03eb = '';
+                    _0x7b9658 = 0,
+                    _0x49261b, someString = '';
+                // _0x211092 is decode function with unknown passed NOT PLAIN TEXT OUTPUT
                 _0x211092 = _0x358970(_0x211092);
                 var _0x5d039a;
-                for (_0x5d039a = 0x0; _0x5d039a < 0x100; _0x5d039a++) {
+                for (_0x5d039a = 0; _0x5d039a < 0x100; _0x5d039a++) {
                     _0x152036[_0x5d039a] = _0x5d039a;
                 }
-                for (_0x5d039a = 0x0; _0x5d039a < 0x100; _0x5d039a++) {
+                for (_0x5d039a = 0; _0x5d039a < 0x100; _0x5d039a++) {
                     _0x7b9658 = (_0x7b9658 + _0x152036[_0x5d039a] + _0x5b6b8a['charCodeAt'](_0x5d039a % _0x5b6b8a['length'])) % 0x100, _0x49261b = _0x152036[_0x5d039a], _0x152036[_0x5d039a] = _0x152036[_0x7b9658], _0x152036[_0x7b9658] = _0x49261b;
                 }
-                _0x5d039a = 0x0, _0x7b9658 = 0x0;
-                for (var _0x22de32 = 0x0; _0x22de32 < _0x211092['length']; _0x22de32++) {
-                    _0x5d039a = (_0x5d039a + 0x1) % 0x100, _0x7b9658 = (_0x7b9658 + _0x152036[_0x5d039a]) % 0x100, _0x49261b = _0x152036[_0x5d039a], _0x152036[_0x5d039a] = _0x152036[_0x7b9658], _0x152036[_0x7b9658] = _0x49261b, _0x4a03eb += String['fromCharCode'](_0x211092['charCodeAt'](_0x22de32) ^ _0x152036[(_0x152036[_0x5d039a] + _0x152036[_0x7b9658]) % 0x100]);
+                _0x5d039a = 0, _0x7b9658 = 0;
+                // run for each char of _0x211092;
+                for (var counter = 0; counter < _0x211092['length']; counter++) {
+                    _0x5d039a = (_0x5d039a + 1) % 0x100;
+                    _0x7b9658 = (_0x7b9658 + _0x152036[_0x5d039a]) % 0x100;
+
+                    _0x49261b = _0x152036[_0x5d039a];
+                    _0x152036[_0x5d039a] = _0x152036[_0x7b9658];
+                    _0x152036[_0x7b9658] = _0x49261b;
+
+                    someString += String.fromCharCode(
+                      _0x211092.charCodeAt(counter) ^ _0x152036[(
+                        _0x152036[_0x5d039a] + _0x152036[_0x7b9658]
+                      ) % 0x100]
+                    );
                 }
-                return _0x4a03eb;
+                // plain text some english strings most still gibberish
+                // console.log(someString);
+                return someString;
             };
-            _0x1c20['NQNXPY'] = _0x3075e1, _0x542433 = arguments, _0x1c20['KOHgtK'] = !![];
+            // NQNXPY in _0x1c20 stores some wacky text
+            _0x1c20['NQNXPY'] = retSomeString
+            _0x542433 = arguments, _0x1c20['KOHgtK'] = !![];
         }
-        var _0x119060 = _0xbac241[0x0],
-            _0x1ac1e1 = _0x1c2002 + _0x119060,
-            _0x4a2f85 = _0x542433[_0x1ac1e1];
-        return !_0x4a2f85 ? (_0x1c20['EDgGGb'] === undefined && (_0x1c20['EDgGGb'] = !![]), _0x1ac0e1 = _0x1c20['NQNXPY'](_0x1ac0e1, _0xae442), _0x542433[_0x1ac1e1] = _0x1ac0e1) : _0x1ac0e1 = _0x4a2f85, _0x1ac0e1;
+        var _0x119060 = _0xbac241[0],
+        _0x1ac1e1 = _0x1c2002 + _0x119060,
+        _0x4a2f85 = _0x542433[_0x1ac1e1];
+        // returns _0x1ac0e1
+        return !_0x4a2f85 ? // if _0x4a2f85 false
+            (_0x1c20['EDgGGb'] === undefined && (
+                _0x1c20['EDgGGb'] = !![]), 
+                _0x1ac0e1 = _0x1c20['NQNXPY'](_0x1ac0e1, _0xae442), 
+                _0x542433[_0x1ac1e1] = _0x1ac0e1
+            ) 
+        : // if _0x4a2f85 true
+            // this console log breaks my repl somehow
+            // console.log(_0x4a2f85),
+            _0x1ac0e1 = _0x4a2f85,
+            _0x1ac0e1;
     }, _0x1c20(_0x542433, _0x26918b);
 }
 if (isOnOurWeb) switch (ref) {
@@ -134,7 +172,7 @@ if (isOnOurWeb) switch (ref) {
         break;
     default:
         loaderLang = 'ru';
-} else switch ((navigator[_0x1cbb34(0x15a, '6ep0')] || navigator[_0x1cbb34(0x1d6, 'k1Wx')])[_0x1cbb34(0x143, 'bYcC')](0x0, 0x2)) {
+} else switch ((navigator[_0x1cbb34(0x15a, '6ep0')] || navigator[_0x1cbb34(0x1d6, 'k1Wx')])[_0x1cbb34(0x143, 'bYcC')](0, 0x2)) {
     case 'en':
         loaderLang = 'en';
         break;
@@ -144,7 +182,49 @@ if (isOnOurWeb) switch (ref) {
     default:
         loaderLang = 'ru';
 }
-var pageCode = '<div\x20class=\x22game\x22>\x0a\x09<div\x20id=\x22game-container\x22><canvas\x20id=\x22canvas\x22></canvas></div>\x0a\x09<div\x20id=\x22loadingBlock\x22>\x0a\x09\x09<div\x20class=\x22jss2\x22>\x0a\x09\x09\x09<p\x20class=\x22jss7\x20jss16\x20jss21\x20jss4\x22><span\x20class=\x22jss6\x22></span><span\x20class=\x22jss5\x22></span></p>\x0a\x09\x09</div>\x0a\x09\x09<div\x20class=\x22jss31\x20jss34\x20jss1\x22>\x0a\x09\x09\x09<div\x20class=\x22jss31\x20jss34\x20jss48\x22\x20style=\x22flex:\x201\x201\x200%;\x22>\x0a\x09\x09\x09\x09<div\x20class=\x22jss32\x22>\x0a\x09\x09\x09\x09\x09<h1\x20class=\x22jss7\x20jss9\x20jss20\x20jss3\x22>\x0a\x09\x09\x09\x09\x09\x09' + loaderLangText[loaderLang][_0x1cbb34(0x1d5, '[k[*')] + _0x1cbb34(0x18a, 'de#K') + loaderLangText[loaderLang][_0x1cbb34(0x1a2, 'e@vd')] + _0x1cbb34(0x12a, 'n5c8') + loaderLangText[loaderLang][_0x1cbb34(0x1ea, 'vQqo')] + '\x0a\x09\x09\x09\x09\x09\x09\x09\x09</a></div>\x0a\x09\x09\x09\x09\x09\x09</div>\x0a\x09\x09\x09\x09\x09</div>\x0a\x09\x09\x09\x09</div>\x0a\x09\x09\x09</div>\x0a\x09\x09\x09<div\x20class=\x22jss32\x22>\x0a\x09\x09\x09\x09<div\x20class=\x22jss31\x20jss51\x22>\x0a\x09\x09\x09\x09\x09<div\x20class=\x22jss32\x22>\x0a\x09\x09\x09\x09\x09\x09<div\x20class=\x22game-footer-btn\x20game-footer-more\x22>\x0a\x09\x09\x09\x09\x09\x09\x09<div\x20style=\x22place-content:\x20center;\x20align-items:\x20center;\x20box-sizing:\x20border-box;\x20display:\x20flex;\x20flex-flow:\x20row\x20nowrap;\x20height:\x20100%;\x22><a\x20id=\x22game-footer-more-url\x22\x20href=\x22\x22\x20class=\x22game-footer-link\x22\x20target=\x22_blank\x22>' + loaderLangText[loaderLang][_0x1cbb34(0x168, 'ot&f')] + _0x1cbb34(0x141, 'mt7Y'),
+// raw page code (yippie!)
+var pageCode = `
+<div class="game">
+    <div id="game-container">
+        <canvas id="canvas"></canvas>
+    </div>
+    <div id="loadingBlock">
+        <div class="jss2">
+            <p class="jss7 jss16 jss21 jss4">
+                <span class="jss6"></span>
+                <span class="jss5"></span>
+            </p>
+        </div>
+        <div class="jss31 jss34 jss1">
+            <div class="jss31 jss34 jss48" style="flex: 1 1 0%;">
+                <div class="jss32">
+                    <h1 class="jss7 jss9 jss20 jss3">
+                        ${loaderLangText[loaderLang][_0x1cbb34(0x1d5, '[k[*')]}
+                        ${_0x1cbb34(0x18a, 'de#K')}
+                        ${loaderLangText[loaderLang][_0x1cbb34(0x1a2, 'e@vd')]}
+                        ${_0x1cbb34(0x12a, 'n5c8')} 
+                        ${loaderLangText[loaderLang][_0x1cbb34(0x1ea, 'vQqo')]}
+                    </h1>
+                </div>
+            </div>
+        </div>
+        <div class="jss32">
+            <div class="jss31 jss51">
+                <div class="jss32">
+                    <div class="game-footer-btn game-footer-more">
+                        <div style="place-content: center; align-items: center; box-sizing: border-box; display: flex; flex-flow: row nowrap; height: 100%;">
+                            <a id="game-footer-more-url" href="" class="game-footer-link" target="_blank">
+                                ${loaderLangText[loaderLang][_0x1cbb34(0x168, 'ot&f')]}
+                                ${_0x1cbb34(0x141, 'mt7Y')}
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+`;
     GameInit = {
         'load': function(_0x599840) {
             var _0x422df6 = _0x1cbb34,
@@ -201,7 +281,7 @@ var pageCode = '<div\x20class=\x22game\x22>\x0a\x09<div\x20id=\x22game-container
                     };
                 if (_0x1105fb[_0xc632f7(0x1e4, 'ws9x')](_0x1105fb[_0xc632f7(0x145, '[k[*')], _0xc632f7(0x170, 'h$Gf'))) {
                     var _0x59107c = _0x1105fb['DCzji'][_0xc632f7(0x164, 'Wf4Y')]('|'),
-                        _0x2fa159 = 0x0;
+                        _0x2fa159 = 0;
                     while (!![]) {
                         switch (_0x59107c[_0x2fa159++]) {
                             case '0':
@@ -212,7 +292,7 @@ var pageCode = '<div\x20class=\x22game\x22>\x0a\x09<div\x20id=\x22game-container
                                 continue;
                             case '2':
                                 var _0x1f58a1 = _0x1105fb['RQKLi'](_0x1105fb[_0xc632f7(0x15f, 'e@vd')](_0x1105fb['xYnNh'], _0x599840[_0xc632f7(0x1c1, 'h0Sm')]), _0x1105fb[_0xc632f7(0x16f, 'de#K')]),
-                                    _0xa465a5 = document[_0xc632f7(0x180, '!GIp')] || document[_0xc632f7(0x15e, 'lvvp')](_0x1105fb['abNtR'])[0x0],
+                                    _0xa465a5 = document[_0xc632f7(0x180, '!GIp')] || document[_0xc632f7(0x15e, 'lvvp')](_0x1105fb['abNtR'])[0],
                                     _0x4707ed = document[_0xc632f7(0x14a, '4Ra1')](_0xc632f7(0x188, 'Ejau'));
                                 continue;
                             case '3':
@@ -267,7 +347,7 @@ function loadUnityInstace(_0x24bdc5, _0x5639e1, _0x289cda) {
             'rsTdt': _0x59375d(0x1dd, 'huO4')
         },
         _0x23f5d1 = _0x3cab76[_0x59375d(0x190, '[k[*')][_0x59375d(0x160, 'Pj0H')]('|'),
-        _0x28d6aa = 0x0;
+        _0x28d6aa = 0;
     while (!![]) {
         switch (_0x23f5d1[_0x28d6aa++]) {
             case '0':
@@ -340,7 +420,7 @@ function loadUnityInstace(_0x24bdc5, _0x5639e1, _0x289cda) {
                         };
                     _0x565b29[_0x14e1e5(0x134, 'mt7Y')](createUnityInstance, _0x11ea73, _0x4111d5, _0x42d2f2 => {
                         var _0x57581e = _0x14e1e5;
-                        _0x42d2f2 <= 0.89 ? (_0x3c8b8d['style'][_0x57581e(0x142, ']w)m')] = _0xce1537[_0x57581e(0x157, 'uQp!')](0x64 * _0x42d2f2, '%'), _0x39e199[_0x57581e(0x185, 'ysfL')] = _0xce1537['WSmYr'](_0xce1537[_0x57581e(0x12d, 'Ejau')](loaderLangText[loaderLang][_0x57581e(0x13d, '0494')], Math[_0x57581e(0x17b, 'kfzg')](_0xce1537[_0x57581e(0x136, 'mt7Y')](0x64, _0x42d2f2))), '%')) : (_0x3c8b8d[_0x57581e(0x18f, 'huO4')][_0x57581e(0x121, '!)me')] = _0xce1537[_0x57581e(0x122, 'b9VU')], _0x39e199['innerHTML'] = loaderLangText[loaderLang][_0xce1537['qOQNF']]);
+                        _0x42d2f2 <= 0.89 ? (_0x3c8b8d['style'][_0x57581e(0x142, ']w)m')] = _0xce1537[_0x57581e(0x157, 'uQp!')](100 * _0x42d2f2, '%'), _0x39e199[_0x57581e(0x185, 'ysfL')] = _0xce1537['WSmYr'](_0xce1537[_0x57581e(0x12d, 'Ejau')](loaderLangText[loaderLang][_0x57581e(0x13d, '0494')], Math[_0x57581e(0x17b, 'kfzg')](_0xce1537[_0x57581e(0x136, 'mt7Y')](100, _0x42d2f2))), '%')) : (_0x3c8b8d[_0x57581e(0x18f, 'huO4')][_0x57581e(0x121, '!)me')] = _0xce1537[_0x57581e(0x122, 'b9VU')], _0x39e199['innerHTML'] = loaderLangText[loaderLang][_0xce1537['qOQNF']]);
                     })[_0x14e1e5(0x133, 'j6ct')](_0x2a3dd7 => {
                         var _0xa001b4 = _0x14e1e5;
                         window['unityInstance'] = _0x2a3dd7, _0xce1537['IWTER'](typeof window[_0xa001b4(0x11d, 'Ejau')], _0xce1537[_0xa001b4(0x1bb, '^tNY')]) && (window['unityStringify'] = _0x2a3dd7[_0xa001b4(0x1a7, '0FRr')]['Pointer_stringify']), _0x13b53b[_0xa001b4(0x1d0, '&2[s')][_0xa001b4(0x14d, 'b9VU')] = _0xa001b4(0x147, '0FRr'), _0x12b2f1 && (_0x12b2f1[_0xa001b4(0x11c, 'Ejau')] = () => {
