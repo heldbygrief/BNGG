@@ -356,7 +356,7 @@ var pageCode = `
                         </div>
                         <div class="jss32">
                             <div class="jss32 gameloader-logo">
-                                <img id="game-logo" src="logo.jpg">
+                                <!-- Logo here <img id="game-logo" src="logo.jpg"> -->
                             </div>
                         </div>
                         <div class="jss32">

@@ -3,8 +3,10 @@
   <link rel="stylesheet" href="game-loader/gameloader2020.css" />
   <script src="game-loader/gameloader2020.js"></script>
   <script src="game-loader/gameloader-helper.js"></script>
-  <meta charset="UTF-8">
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link href="css/daisyui.min.css" rel="stylesheet" type="text/css" />
+  <script src="js/tailwindcss.js"></script>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 </head>
 <body>
   <script type="text/javascript">
@@ -18,9 +20,9 @@
         unityConfigOptions: {
           dataUrl: "Build/BuildNow.data",
           frameworkUrl: "Build/BuildNow.framework.js",
-          codeUrl: "Build/BuildNow.wasm"
-        }
-      }
+          codeUrl: "Build/BuildNow.wasm",
+        },
+      },
     };
     GameInit.load(options);
   </script>
