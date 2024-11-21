@@ -11,11 +11,10 @@
 
 - [ ] Optimize File Loading
 - [ ] Remake Loader frontend
-  - [ ] RosieUI
+  - [X] RosieUI
   - [ ] FontAwesome
 - [ ] Learn the BuildNow Framework
 - [ ] Deobfsucate the GameLoader and GameLoader Helper
-  - [ ] [Notes](https://github.com/cloudirector/BuildNowGG/blob/main/notes.md)
 - [ ] Webasmblly cheetos / features
 - [ ] Websocket interpretor.
 
