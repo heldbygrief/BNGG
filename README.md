@@ -9,6 +9,7 @@
 
 # Todo...
 
+- [ ] Better console log
 - [ ] Optimize File Loading
 - [ ] Remake Loader frontend
   - [X] RosieUI
