@@ -31,7 +31,7 @@ body{
     right:0;
     top:0;
     bottom:45px;
-    background-color:#5a7371;
+    background-color:#ff0000;
     box-shadow:0 5px 5px #888
 }
 #game-container.fullscreen{
@@ -54,8 +54,9 @@ body{
     left:0;
     right:0;
     height:45px;
-    background:#5a7371;
-    background:linear-gradient(to bottom,#3f7996 0%,#5a7371 100%)
+    /* For rosie */
+    /* background:#5a7371;
+    background:linear-gradient(to bottom,#3f7996 0%,#5a7371 100%) */
 }
 .game-btn{
     background:3cc0dc;
@@ -117,7 +118,7 @@ body{
     margin:0
 }
 .game-footer .game-footer-btn:hover{
-    background-color:#719290
+    background-color:#ff0000
 }
 .game-footer .game-footer-btn a.game-footer-link{
     line-height:45px;
@@ -134,8 +135,8 @@ body{
     font-size:16px
 }
 .game-footer .game-footer-img-button{
-    width:70px;
-    overflow-x:hidden;
+    /* width:70px; */
+    /* overflow-x:hidden; */
     height:45px;
     cursor:pointer
 }
@@ -202,7 +203,7 @@ body{
     width:0;
     height:100%;
     border-radius:.6vh;
-    background-color:#3cf7dc;
+    background-color:#0800ff;
     transition:.2s ease-out all;
     animation-name:fillColor;
     animation-duration:3.5s;
@@ -763,7 +764,7 @@ canvas{
     font-family:mariupol,roboto,helvetica,arial,sans-serif;
     line-height:1.4em;
     border-radius:2px;
-    background-color:#445655
+    background-color:#00fff2
 }
 .jss137.jss136{
     opacity:.9;
@@ -962,7 +963,8 @@ canvas{
     position:absolute;
     overflow:hidden;
     background-size:cover;
-    background-color:#002b50;
+    /* leave for daisy bg */
+    /* background-color:#002b50; */
     background-position:center
 }
 .jss2{
