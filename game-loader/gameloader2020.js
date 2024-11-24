@@ -366,7 +366,7 @@ var pageCode = `
                                     </div>
                                 </div>
                                 <div class="gameloader-progress-info">
-                                    Downloading files: 00%
+                                    Will download files shortly :)
                                 </div>
                             </div>
                         </div>
@@ -512,8 +512,9 @@ GameInit = {
                                         : _0x599840["gameNameEu"]
                                           ? _0x599840[_0xc632f7(0x1c9, "^tNY")]
                                           : ""),
-                                    (_0x201de8[_0xc632f7(0x19c, "de#K")] =
-                                        _0x599840[_0xc632f7(0x1ac, "a6Iq")]),
+                                    // Shitty little hack untill full deobfuscation
+                                    // (_0x201de8[_0xc632f7(0x19c, "de#K")] =
+                                    //     _0x599840[_0xc632f7(0x1ac, "a6Iq")]),
                                     _0x599840["allowFullscreen"] ||
                                         _0x3235ed[_0xc632f7(0x18d, "bYcC")](),
                                     isOnOurWeb
