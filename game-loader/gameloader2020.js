@@ -411,7 +411,8 @@ var pageCode = `
                                     <div id="fullScreenButton" class="game-footer-btn game-footer-img-button game-footer-fullscreen-btn">
                                         <span>
                                             <div style="place-content: center; align-items: center; box-sizing: border-box; display: flex; flex-flow: row nowrap;">
-                                                <img src="/lib/game-loader/btn/fullscreen_btn.png" alt="Fullscreen Button">
+                                                Fullscreen
+                                                <!-- <img src="/lib/game-loader/btn/fullscreen_btn.png" alt="Fullscreen Button"> -->
                                             </div>
                                         </span>
                                     </div>
