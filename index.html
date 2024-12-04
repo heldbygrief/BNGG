@@ -1,29 +1,31 @@
-<head>
-  <title>BuildNow GG</title>
-  <link rel="stylesheet" href="game-loader/gameloader2020.css" />
-  <script src="game-loader/gameloader2020.js"></script>
-  <script src="game-loader/gameloader-helper.js"></script>
-  <link href="style/daisyui.min.css" rel="stylesheet" type="text/css" />
-  <script src="style/tailwindcss.js"></script>
-  <meta charset="UTF-8" />
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-</head>
-<body>
-  <script type="text/javascript">
-    var options = {
-      author: "Vseigru, cloudirector",
-      gameName: "BuildNow GG",
-      locale: "en_US",
-      allowFullscreen: true,
-      loaderOptions: {
-        unityLoaderUrl: "Build/BuildNow.loader.js",
-        unityConfigOptions: {
-          dataUrl: "Build/BuildNow.data",
-          frameworkUrl: "Build/BuildNow.framework.js",
-          codeUrl: "Build/BuildNow.wasm",
+<html data-theme="dark">
+  <head>
+    <title>BuildNow GG</title>
+    <link rel="stylesheet" href="game-loader/gameloader2020.css" />
+    <script src="game-loader/gameloader2020.js"></script>
+    <script src="game-loader/gameloader-helper.js"></script>
+    <link href="style/daisyui.min.css" rel="stylesheet" type="text/css" />
+    <script src="style/tailwindcss.js"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  </head>
+  <body>
+    <script type="text/javascript">
+      var options = {
+        author: "Vseigru, cloudirector",
+        gameName: "BuildNow GG",
+        locale: "en_US",
+        allowFullscreen: true,
+        loaderOptions: {
+          unityLoaderUrl: "Build/BuildNow.loader.js",
+          unityConfigOptions: {
+            dataUrl: "Build/BuildNow.data",
+            frameworkUrl: "Build/BuildNow.framework.js",
+            codeUrl: "Build/BuildNow.wasm",
+          },
         },
-      },
-    };
-    GameInit.load(options);
-  </script>
-</body>
+      };
+      GameInit.load(options);
+    </script>
+  </body>
+</html>
