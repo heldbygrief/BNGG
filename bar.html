@@ -1,0 +1,75 @@
+<html data-theme="dark">
+    <head>
+        <title>BuildNow GG</title>
+        <link rel="stylesheet" href="game-loader/gameloader2020.css" />
+        <link href="style/daisyui.min.css" rel="stylesheet" type="text/css" />
+        <link
+            href="style/fontawesome.min.css"
+            rel="stylesheet"
+            type="text/css"
+        />
+        <script src="style/tailwindcss.js"></script>
+        <meta charset="UTF-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    </head>
+    <body>
+        <script type="text/javascript">
+            var options = {
+                author: "Vseigru, cloudirector",
+                gameName: "BuildNow GG",
+                locale: "en_US",
+                allowFullscreen: true,
+                loaderOptions: {
+                    unityLoaderUrl: "Build/BuildNow.loader.js",
+                    unityConfigOptions: {
+                        dataUrl: "Build/BuildNow.data",
+                        frameworkUrl: "Build/BuildNow.framework.js",
+                        codeUrl: "Build/BuildNow.wasm",
+                    },
+                },
+            };
+            GameInit.load(options);
+        </script>
+
+        <div id="unity-container" class="unity-desktop">
+            <div class="game">
+                <div id="game-container">
+                    <canvas id="canvas"></canvas>
+                </div>
+
+                <div
+                    class="bg-base-200 z-0 absolute bottom-0 left-0 right-0 h-[60px] select-none box-content"
+                >
+                    <div
+                        class="flex justify-between items-center h-full w-full"
+                    >
+                        <div class="flex space-x-1 btn btn-ghost ml-4">
+                            <span class="text-success">BUILD</span>
+                            <span class="text-info">NOW</span>
+                            <span class="text-neutral-content">GG</span>
+                        </div>
+
+                        <div class="flex space-x-4 ml-auto mr-4">
+                            <a
+                                id="game-footer-more-url"
+                                href=""
+                                class="btn btn-ghost"
+                            >
+                                <i class="fa-solid fa-gamepad"></i>
+                            </a>
+                            <button
+                                id="fullScreenButton"
+                                class="btn btn-ghost"
+                                aria-label="Toggle fullscreen"
+                            >
+                                <i class="fa-solid fa-expand"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="Build/BuildNow.loader.js"></script>
+        <script src="Build/BuildNow.framework.js"></script>
+    </body>
+</html>

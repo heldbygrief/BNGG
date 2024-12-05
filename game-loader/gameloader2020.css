@@ -48,6 +48,10 @@ body{
     bottom:0
 }
 .game-footer{
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    box-sizing:content-box;
+    
     z-index:0;
     position:absolute;
     bottom:0;
@@ -84,11 +88,7 @@ body{
 .game-btn-link:hover{
     text-decoration:none
 }
-.game-footer{
-    -webkit-user-select:none;
-    -moz-user-select:none;
-    box-sizing:content-box
-}
+
 .game-footer .game-footer-logo{
     height:45px;
     font-size:24px;
@@ -117,9 +117,11 @@ body{
 .game-footer .game-footer-btn.game-footer-logo{
     margin:0
 }
-.game-footer .game-footer-btn:hover{
+
+/* remove hover in favor of default rosie hover */
+/* .game-footer .game-footer-btn:hover{
     background-color:#ff0000
-}
+} */
 .game-footer .game-footer-btn a.game-footer-link{
     line-height:45px;
     height:45px;
