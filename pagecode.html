@@ -1,0 +1,135 @@
+<div class="game">
+    <div id="game-container">
+        <canvas id="canvas"></canvas>
+    </div>
+    <div id="loadingBlock">
+        <div class="jss2">
+            <p class="jss7 jss16 jss21 jss4">
+                <span class="jss6"></span>
+                <span class="jss5"></span>
+            </p>
+        </div>
+        <!-- loading screen area (fuzzy start) -->
+        <div
+            class="jss31 jss34 jss1 bg-base-100 flex items-center justify-center bg-base-100 text-base-content"
+        >
+            <div
+                class="items-center justify-center gap-10 bg-base-200 p-5 rounded-xl shadow-md mr-4"
+            >
+                <div class="jss31 jss34 jss48" style="flex: 1 1 0%">
+                    <div class="jss32">
+                        <h1 class="jss7 jss9 jss20 jss3">
+                            <!-- Start -->
+                            <div class="jss125">
+                                <span>
+                                    <span class="jss122">BUILD</span>
+                                    <span class="jss124">NOW</span>
+                                </span>
+                                <span class="jss128 jss129"></span>
+                                <span
+                                    class="jss131 jss133"
+                                    style="display: inline"
+                                    >GG</span
+                                >
+                            </div>
+                        </h1>
+                    </div>
+                </div>
+                <div class="jss31 jss34" style="flex: 3 1 0%">
+                    <div class="jss32" style="height: 100%">
+                        <div class="jss31 jss34 jss39 jss50 gameloader">
+                            <div class="jss32">
+                                <div class="gameloader-game-name"></div>
+                            </div>
+                            <div class="jss32">
+                                <div class="jss32 gameloader-logo">
+                                    <!-- Logo here <img id="game-logo" src="logo.jpg"> -->
+                                </div>
+                            </div>
+                            <div class="jss32">
+                                <div>
+                                    <div class="gameloader-progressbar">
+                                        <div
+                                            class="gameloader-progressbar-progress"
+                                            style="width: 0%"
+                                        ></div>
+                                    </div>
+                                    <div class="gameloader-progress-info">
+                                        Will download files shortly :)
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- New footer bar structure using your template -->
+    <div
+        class="bg-base-200 z-0 absolute bottom-0 left-0 right-0 h-[60px] select-none box-content"
+    >
+        <div class="flex justify-between items-center h-full w-full">
+            <!-- Left section with "BUILD NOW GG" -->
+            <div class="flex space-x-1 btn btn-ghost ml-4">
+                <span class="text-success">BUILD</span>
+                <span class="text-info">NOW</span>
+                <span class="text-neutral-content">GG</span>
+            </div>
+            <!-- Right section with icons (game footer more and fullscreen) -->
+            <div class="flex space-x-4 ml-auto mr-4">
+                <a id="game-footer-more-url" href="" class="btn btn-ghost">
+                    <i class="fa-solid fa-gamepad"></i>
+                </a>
+                <button
+                    id="fullScreenButton"
+                    class="btn btn-ghost"
+                    aria-label="Toggle fullscreen"
+                >
+                    <i class="fa-solid fa-expand"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hidden elements with IDs placed at the bottom -->
+    <div style="display: none">
+        <div id="game-footer-logo-url" href="" target="_blank">
+            <div class="jss125">
+                <span>
+                    <span class="jss122">BUILD</span>
+                    <span class="jss124">NOW</span>
+                </span>
+                <span class="jss128 jss129"></span>
+                <span class="jss131 jss133" style="display: inline">GG</span>
+            </div>
+        </div>
+        <a
+            id="game-footer-more-url"
+            href=""
+            class="game-footer-link"
+            target="_blank"
+        >
+            Games icon here
+        </a>
+        <div
+            id="fullScreenButton"
+            class="game-footer-btn game-footer-img-button game-footer-fullscreen-btn"
+        >
+            <span>
+                <div
+                    style="
+                        place-content: center;
+                        align-items: center;
+                        box-sizing: border-box;
+                        display: flex;
+                        flex-flow: row nowrap;
+                    "
+                >
+                    Fullscreen icon here
+                </div>
+            </span>
+        </div>
+    </div>
+</div>

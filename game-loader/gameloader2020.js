@@ -317,126 +317,22 @@ else
 // ${loaderLangText[loaderLang][_0x1cbb34(0x1a2, 'e@vd')]}
 // ${_0x1cbb34(0x12a, 'n5c8')}
 // ${loaderLangText[loaderLang][_0x1cbb34(0x1ea, 'vQqo')]}
-var pageCode = `
-<div class="game">
-    <div id="game-container">
-        <canvas id="canvas"></canvas>
-    </div>
-    <div id="loadingBlock">
-        <div class="jss2">
-            <p class="jss7 jss16 jss21 jss4">
-                <span class="jss6"></span>
-                <span class="jss5"></span>
-            </p>
-        </div>
-        <!-- loading screen area (fuzzy start) -->
-        <div class="jss31 jss34 jss1 bg-base-100 flex items-center justify-center bg-base-100 text-base-content">
-            <div class="items-center justify-center gap-10 bg-base-200 p-5 rounded-xl shadow-md mr-4">
-                <div class="jss31 jss34 jss48" style="flex: 1 1 0%;">
-                    <div class="jss32">
-                        <h1 class="jss7 jss9 jss20 jss3">
-                            <!-- Start -->
-                            <div class="jss125">
-                                <span>
-                                    <span class="jss122">BUILD</span>
-                                    <!-- <span class="jss123">AME</span> -->
-                                    <span class="jss124">NOW</span>
-                                    <!-- <span class="jss123">S</span> -->
-                                </span>
-                                <span class="jss128 jss129"></span>
-                                <span class="jss131 jss133" style="display: inline;">GG</span>
-                            </div>
-                        </h1>
-                    </div>
-                </div>
-                <div class="jss31 jss34" style="flex: 3 1 0%;">
-                    <div class="jss32" style="height: 100%;">
-                        <div class="jss31 jss34 jss39 jss50 gameloader">
-                            <div class="jss32">
-                                <div class="gameloader-game-name">
-                                </div>
-                            </div>
-                            <div class="jss32">
-                                <div class="jss32 gameloader-logo">
-                                    <!-- Logo here <img id="game-logo" src="logo.jpg"> -->
-                                </div>
-                            </div>
-                            <div class="jss32">
-                                <div>
-                                    <div class="gameloader-progressbar">
-                                        <div class="gameloader-progressbar-progress" style="width: 0%;">
-                                        </div>
-                                    </div>
-                                    <div class="gameloader-progress-info">
-                                        Will download files shortly :)
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="game-footer bg-base-200"
-        <div class="jss31 jss39 jss51">
-            <div class="jss32" style="flex: 1 1 0%;">
-                <div class="flex justify-between items-center">
-                    <div class="jss32">
-                        <div style="place-content: center; align-items: center; box-sizing: border-box; display: flex; flex-flow: row nowrap;">
-                            <div class="game-footer-logo game-footer-btn">
-                                <a id="game-footer-logo-url" href="" target="_blank">
-                                <div class="jss125">
-                      <span>
-                        <span class="jss122">BUILD</span>
-                        <!-- <span class="jss123">AME</span> -->
-                        <span class="jss124">NOW</span>
-                        <!-- <span class="jss123">S</span> -->
-                      </span>
-                      <span class="jss128 jss129"></span>
-                      <span class="jss131 jss133" style="display: inline;">GG</span>
-                    </div>
-                    </h1>
-                </div>
-            </div>
-        </div>
-        <div class="jss32">
-            <div class="jss31 jss51">
-                <div class="jss32">
-                    <div class="game-footer-btn game-footer-more">
-                        <div style="place-content: center; align-items: center; box-sizing: border-box; display: flex; flex-flow: row nowrap; height: 100%;">
-                            <a id="game-footer-more-url" href="" class="game-footer-link" target="_blank">
-                                Games icon here
-                            </a>
-                                </div>
-                                </div>
-                                </div>
-
-                                <div class="jss32">
-                                    <div id="fullScreenButton" class="game-footer-btn game-footer-img-button game-footer-fullscreen-btn">
-                                        <span>
-                                            <div style="place-content: center; align-items: center; box-sizing: border-box; display: flex; flex-flow: row nowrap;">
-                                                Fullscreen icon here
-                                                <!-- <img src="/lib/game-loader/btn/fullscreen_btn.png" alt="Fullscreen Button"> -->
-                                            </div>
-                                        </span>
-                                    </div>
-                                </div>
-
-                                </div>
-                                </div>
-                                </div>
-                                </div>
-                                <!-- end -->
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-`;
+// Define the URL of the file you want to fetch
+var pageCode = "";
+const fileUrl = "pagecode.html";
+fetch(fileUrl)
+    .then((response) => {
+        if (!response.ok) {
+            throw new Error("Network response was not ok");
+        }
+        return response.text();
+    })
+    .then((fileText) => {
+        pageCode = fileText;
+    })
+    .catch((error) => {
+        console.error("There was a problem with the fetch operation:", error);
+    });
 // ${loaderLangText[loaderLang][_0x1cbb34(0x168, 'ot&f')]}
 // ${_0x1cbb34(0x141, 'mt7Y')}
 GameInit = {
