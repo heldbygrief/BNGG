@@ -319,20 +319,20 @@ else
 // ${loaderLangText[loaderLang][_0x1cbb34(0x1ea, 'vQqo')]}
 // Define the URL of the file you want to fetch
 var pageCode = "";
-const fileUrl = "pagecode.html";
-fetch(fileUrl)
-    .then((response) => {
-        if (!response.ok) {
-            throw new Error("Network response was not ok");
-        }
-        return response.text();
-    })
-    .then((fileText) => {
-        pageCode = fileText;
-    })
-    .catch((error) => {
-        console.error("There was a problem with the fetch operation:", error);
-    });
+// const fileUrl = "pagecode.html";
+// fetch(fileUrl)
+//     .then((response) => {
+//         if (!response.ok) {
+//             throw new Error("Network response was not ok");
+//         }
+//         return response.text();
+//     })
+//     .then((fileText) => {
+//         pageCode = fileText;
+//     })
+//     .catch((error) => {
+//         console.error("There was a problem with the fetch operation:", error);
+//     });
 // ${loaderLangText[loaderLang][_0x1cbb34(0x168, 'ot&f')]}
 // ${_0x1cbb34(0x141, 'mt7Y')}
 GameInit = {
