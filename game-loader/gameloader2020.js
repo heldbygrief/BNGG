@@ -1,6 +1,6 @@
 var _0xodr = "jsjiami.com.v7";
-// _0x1cbb34 outputs plaintext points to _0x1c20
-var _0x1cbb34 = _0x1c20;
+// _0x1cbb34 outputs plaintext points to _0x1c20 (moutput)
+var _0x1cbb34 = moutput;
 ((function (
     _0x3f3dfc,
     _0x2bc1ba,
@@ -16,7 +16,7 @@ var _0x1cbb34 = _0x1c20;
         (_0x55856d = "hs"),
         (function (_0x55bf74, _0x2b24ae, _0xfcd19, _0x5ce12c, _0x46dfce) {
             // might be another pointer to plaintext output
-            var _0x4dfb7a = _0x1c20;
+            var _0x4dfb7a = moutput;
             (_0x5ce12c = "tfi"),
                 (_0x429763 = _0x5ce12c + _0x429763),
                 (_0x46dfce = "up"),
@@ -162,13 +162,13 @@ var disableLinks = [
 // console.log(_0x1cbb34(0x1ba, 'Wf4Y'));
 
 // main output function ends around line 150
-function _0x1c20(_0x542433, _0x26918b) {
+function moutput(mvar, mkey) {
     var _0xbac241 = _0xbac2();
     return (
-        (_0x1c20 = function (_0x1c2002, _0xae442) {
+        (moutput = function (_0x1c2002, _0xae442) {
             _0x1c2002 = _0x1c2002 - 0x11c;
             var _0x1ac0e1 = _0xbac241[_0x1c2002];
-            if (_0x1c20["KOHgtK"] === undefined) {
+            if (moutput["KOHgtK"] === undefined) {
                 // _0x358970 decode function
                 var _0x358970 = function (_0x17c880) {
                     var _0x5ad2d9 =
@@ -259,20 +259,20 @@ function _0x1c20(_0x542433, _0x26918b) {
                     // console.log(someString);
                     return someString;
                 };
-                // NQNXPY in _0x1c20 stores some wacky text
-                _0x1c20["NQNXPY"] = retSomeString;
-                (_0x542433 = arguments), (_0x1c20["KOHgtK"] = !![]);
+                // NQNXPY in _0x1c20 (moutput) stores some wacky text
+                moutput["NQNXPY"] = retSomeString;
+                (mvar = arguments), (moutput["KOHgtK"] = !![]);
             }
             var _0x119060 = _0xbac241[0],
                 _0x1ac1e1 = _0x1c2002 + _0x119060,
-                _0x4a2f85 = _0x542433[_0x1ac1e1];
+                _0x4a2f85 = mvar[_0x1ac1e1];
             // returns _0x1ac0e1
             return (
                 !_0x4a2f85 // if _0x4a2f85 false
-                    ? (_0x1c20["EDgGGb"] === undefined &&
-                          (_0x1c20["EDgGGb"] = !![]),
-                      (_0x1ac0e1 = _0x1c20["NQNXPY"](_0x1ac0e1, _0xae442)),
-                      (_0x542433[_0x1ac1e1] = _0x1ac0e1))
+                    ? (moutput["EDgGGb"] === undefined &&
+                          (moutput["EDgGGb"] = !![]),
+                      (_0x1ac0e1 = moutput["NQNXPY"](_0x1ac0e1, _0xae442)),
+                      (mvar[_0x1ac1e1] = _0x1ac0e1))
                     : // if _0x4a2f85 true
                       // this console log breaks my repl somehow
                       // console.log(_0x4a2f85),
@@ -280,7 +280,7 @@ function _0x1c20(_0x542433, _0x26918b) {
                 _0x1ac0e1
             );
         }),
-        _0x1c20(_0x542433, _0x26918b)
+        moutput(mvar, mkey)
     );
 }
 if (isOnOurWeb)
@@ -336,52 +336,58 @@ var pageCode = "";
 // ${loaderLangText[loaderLang][_0x1cbb34(0x168, 'ot&f')]}
 // ${_0x1cbb34(0x141, 'mt7Y')}
 GameInit = {
-    load: function (_0x599840) {
+    load: function (options) {
         var _0x422df6 = _0x1cbb34,
-            _0x1105fb = {
-                zASAz: function (_0x30ce0a, _0x338a79) {
-                    return _0x30ce0a !== _0x338a79;
-                },
-                YKapp: "MNrLM",
-                DCzji: _0x422df6(0x1e2, "rCcn"),
-                gzhNM: _0x422df6(0x1ad, "Wf4Y"),
-                csGkC: _0x422df6(0x19e, "^tNY"),
-                MsAZz: function (_0x251613, _0x31bad1, _0x444ba9, _0x5b889c) {
-                    return _0x251613(_0x31bad1, _0x444ba9, _0x5b889c);
-                },
-                RQKLi: function (_0x2f0d0e, _0x4d57f3) {
-                    return _0x2f0d0e + _0x4d57f3;
-                },
-                xYnNh: _0x422df6(0x149, "huO4"),
-                khVDi: "\x22)}",
-                abNtR: "head",
-                XTTIU: _0x422df6(0x131, "uQp!"),
-                pVmoB: _0x422df6(0x1ca, "lvvp"),
-                PVHSq: _0x422df6(0x1b9, "Wf4Y"),
-                DOTWo: _0x422df6(0x173, "Ejau"),
-                mpzLX: _0x422df6(0x146, "]w)m"),
-                CSnQW: _0x422df6(0x1c6, "0494"),
-                lNBcL: _0x422df6(0x1cf, "]w)m"),
-                yPpPK: function (_0x5c9388, _0x23a832) {
-                    return _0x5c9388(_0x23a832);
-                },
-                VqvLI: _0x422df6(0x1b4, "j6ct"),
-                kkKbD: function (_0x1b4cd9, _0x2c298d) {
-                    return _0x1b4cd9 + _0x2c298d;
-                },
-                EupDN: function (_0x2fe128, _0x5c6bed) {
-                    return _0x2fe128 + _0x5c6bed;
-                },
-                MqtOX: function (_0xfd4747, _0x1b9c32) {
-                    return _0xfd4747 + _0x1b9c32;
-                },
-                DHVmS: _0x422df6(0x1cc, "IKaJ"),
-                ddYVc: _0x422df6(0x194, "M(do"),
-                yPjOe: "&utm_content=more_link",
-                YgVlY: _0x422df6(0x198, "m^ju"),
-                PnTfj: "text/css",
-                eegyQ: _0x422df6(0x13b, "h0Sm"),
-            };
+            s;
+        // weird dictionary needs decoding
+        _0x1105fb = {
+            zASAz: function (_0x30ce0a, _0x338a79) {
+                return _0x30ce0a !== _0x338a79;
+            },
+            YKapp: "MNrLM",
+            DCzji: _0x422df6(0x1e2, "rCcn"),
+            gzhNM: _0x422df6(0x1ad, "Wf4Y"),
+            csGkC: _0x422df6(0x19e, "^tNY"),
+            MsAZz: function (_0x251613, _0x31bad1, _0x444ba9, _0x5b889c) {
+                return _0x251613(_0x31bad1, _0x444ba9, _0x5b889c);
+            },
+            RQKLi: function (_0x2f0d0e, _0x4d57f3) {
+                return _0x2f0d0e + _0x4d57f3;
+            },
+            xYnNh: _0x422df6(0x149, "huO4"),
+            khVDi: "\x22)}",
+            abNtR: "head",
+            XTTIU: _0x422df6(0x131, "uQp!"),
+            pVmoB: _0x422df6(0x1ca, "lvvp"),
+            PVHSq: _0x422df6(0x1b9, "Wf4Y"),
+            DOTWo: _0x422df6(0x173, "Ejau"),
+            mpzLX: _0x422df6(0x146, "]w)m"),
+            CSnQW: _0x422df6(0x1c6, "0494"),
+            lNBcL: _0x422df6(0x1cf, "]w)m"),
+            yPpPK: function (_0x5c9388, _0x23a832) {
+                return _0x5c9388(_0x23a832);
+            },
+            VqvLI: _0x422df6(0x1b4, "j6ct"),
+            kkKbD: function (_0x1b4cd9, _0x2c298d) {
+                return _0x1b4cd9 + _0x2c298d;
+            },
+            EupDN: function (_0x2fe128, _0x5c6bed) {
+                return _0x2fe128 + _0x5c6bed;
+            },
+            MqtOX: function (_0xfd4747, _0x1b9c32) {
+                return _0xfd4747 + _0x1b9c32;
+            },
+            // returns moreGamesLink
+            DHVmS: _0x422df6(0x1cc, "IKaJ"),
+            // returns /?utm_source=
+            ddYVc: _0x422df6(0x194, "M(do"),
+            yPjOe: "&utm_content=more_link",
+            // returns unity-desktop
+            YgVlY: _0x422df6(0x198, "m^ju"),
+            PnTfj: "text/css",
+            // returns DOMContentLoaded
+            eegyQ: _0x422df6(0x13b, "h0Sm"),
+        };
         document[_0x422df6(0x138, "M$*C")](
             _0x1105fb[_0x422df6(0x163, "0FRr")],
             () => {
@@ -400,6 +406,12 @@ GameInit = {
                     var _0x59107c =
                             _0x1105fb["DCzji"][_0xc632f7(0x164, "Wf4Y")]("|"),
                         _0x2fa159 = 0;
+
+                    // basic decode log
+                    console.log("Attempting log without key...");
+                    // console.log(_0x422df6(0x13b, "h0Sm"));
+                    console.log(_0x422df6(0x1cc, "IKaJ"));
+
                     while (!![]) {
                         switch (_0x59107c[_0x2fa159++]) {
                             case "0":
@@ -410,15 +422,19 @@ GameInit = {
                             case "1":
                                 (_0x3e7a1a[_0xc632f7(0x189, "2Q[f")] =
                                     loaderLang === "ru"
-                                        ? _0x599840[_0xc632f7(0x127, "*EQI")]
-                                        : _0x599840["gameNameEu"]
-                                          ? _0x599840[_0xc632f7(0x1c9, "^tNY")]
+                                        ? options[_0xc632f7(0x127, "*EQI")]
+                                        : options["gameNameEu"]
+                                          ? options[_0xc632f7(0x1c9, "^tNY")]
                                           : ""),
                                     // Shitty little hack untill full deobfuscation
                                     // (_0x201de8[_0xc632f7(0x19c, "de#K")] =
-                                    //     _0x599840[_0xc632f7(0x1ac, "a6Iq")]),
-                                    _0x599840["allowFullscreen"] ||
-                                        _0x3235ed[_0xc632f7(0x18d, "bYcC")](),
+                                    //     options[_0xc632f7(0x1ac, "a6Iq")]),
+
+                                    // if fullscreenallowed false in config the element is removed
+                                    options["allowFullscreen"] ||
+                                        fullscreenButtonElement[
+                                            _0xc632f7(0x18d, "bYcC")
+                                        ](),
                                     isOnOurWeb
                                         ? (_0x3c0c8f[
                                               _0xc632f7(0x14b, "%Xr9")
@@ -441,18 +457,18 @@ GameInit = {
                                               _0x475bb7)),
                                     _0x1105fb[_0xc632f7(0x1e9, "ws9x")](
                                         loadUnityInstace,
-                                        _0x599840[_0xc632f7(0x1d9, "h$Gf")][
+                                        options[_0xc632f7(0x1d9, "h$Gf")][
                                             _0xc632f7(0x176, "MAag")
                                         ],
-                                        _0x599840["loaderOptions"][
+                                        options["loaderOptions"][
                                             _0xc632f7(0x171, "0FRr")
                                         ],
-                                        _0x599840[_0xc632f7(0x1a3, "2GnR")][
+                                        options[_0xc632f7(0x1a3, "2GnR")][
                                             _0xc632f7(0x153, "q3dV")
                                         ]
-                                            ? _0x599840[
-                                                  _0xc632f7(0x1a0, "bYcC")
-                                              ][_0xc632f7(0x11e, "huO4")]
+                                            ? options[_0xc632f7(0x1a0, "bYcC")][
+                                                  _0xc632f7(0x11e, "huO4")
+                                              ]
                                             : () => {},
                                     );
                                 continue;
@@ -460,7 +476,7 @@ GameInit = {
                                 var _0x1f58a1 = _0x1105fb["RQKLi"](
                                         _0x1105fb[_0xc632f7(0x15f, "e@vd")](
                                             _0x1105fb["xYnNh"],
-                                            _0x599840[_0xc632f7(0x1c1, "h0Sm")],
+                                            options[_0xc632f7(0x1c1, "h0Sm")],
                                         ),
                                         _0x1105fb[_0xc632f7(0x16f, "de#K")],
                                     ),
@@ -492,8 +508,10 @@ GameInit = {
                                     _0x3c0c8f = document[
                                         _0xc632f7(0x161, "&2[s")
                                     ](_0x1105fb[_0xc632f7(0x16a, "[k[*")]),
-                                    _0x3235ed =
-                                        document[_0xc632f7(0x17e, "%Xr9")](
+                                    // setup fullscreenbutton
+                                    // _0xc632f7(0x17e, "%Xr9") == querySelector
+                                    fullscreenButtonElement =
+                                        document.querySelector(
                                             "#fullScreenButton",
                                         ),
                                     _0x4a9861 =
@@ -532,7 +550,7 @@ GameInit = {
                                             ) +
                                                 _0x1105fb["yPpPK"](
                                                     encodeURIComponent,
-                                                    _0x599840[
+                                                    options[
                                                         _0xc632f7(0x15d, "&g9m")
                                                     ],
                                                 ),
@@ -564,7 +582,7 @@ GameInit = {
                                         ) +
                                             _0x1105fb[_0xc632f7(0x1d1, "e@vd")](
                                                 encodeURIComponent,
-                                                _0x599840[
+                                                options[
                                                     _0xc632f7(0x177, "M$*C")
                                                 ],
                                             ),
@@ -724,7 +742,7 @@ function loadUnityInstace(_0x24bdc5, _0x5639e1, _0x289cda) {
                         var _0x14e1e5 = _0x59375d,
                             _0xce1537 = {
                                 RvGkH: function (_0x13cc0f, _0x210ce0) {
-                                    var _0x187fe7 = _0x1c20;
+                                    var _0x187fe7 = moutput;
                                     return _0x565b29[_0x187fe7(0x1ae, "rCcn")](
                                         _0x13cc0f,
                                         _0x210ce0,
