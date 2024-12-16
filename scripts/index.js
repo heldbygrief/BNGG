@@ -7,6 +7,8 @@ document.addEventListener("DOMContentLoaded", function () {
     const themeButton = document.getElementById("themeButton");
     const lightIcon = document.getElementById("lightIcon");
     const darkIcon = document.getElementById("darkIcon");
+    const loadingText = document.getElementById("loadingText");
+    const loadingBar = document.getElementById("loadingBar");
 
     function setTheme(theme) {
         document.documentElement.setAttribute("data-theme", theme);
@@ -26,6 +28,31 @@ document.addEventListener("DOMContentLoaded", function () {
     } else {
         setTheme("dark");
     }
+
+    // Initialize a variable to store the content of the div
+    let currentContent = loadingText.innerHTML;
+
+    // Function to handle content changes and log them
+    function handleLoaderTextChange(mutationsList) {
+        mutationsList.forEach((mutation) => {
+            if (mutation.type === "childList" || mutation.type === "subtree") {
+                const newContent = loadingText.innerHTML;
+                if (newContent !== currentContent) {
+                    currentContent = newContent;
+                    const parts = newContent.split(":");
+                    const lastPart = parts[parts.length - 1].trim();
+                    rawPercent = lastPart.replace("%", "").trim();
+                    loadingBar.value = rawPercent;
+                }
+            }
+        });
+    }
+    const observer = new MutationObserver(handleLoaderTextChange);
+    const config = { childList: true, subtree: true };
+    observer.observe(loadingText, config);
+
+    // Need to stop the observer later
+    // observer.disconnect();
 
     themeButton.addEventListener("click", () => {
         const currentTheme =

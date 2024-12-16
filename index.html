@@ -36,12 +36,24 @@
               <span class="text-primary">GG</span>
             </div>
             <!-- Loading Status -->
-            <div class="flex justify-center mt-6">
+            <div class="flex flex-col items-center justify-center mt-6">
               <div class="gameloader-progressbar invisible">
-                <div class="gameloader-progressbar-progress"></div>
+                <div
+                  class="gameloader-progressbar-progress"
+                  style="width: 100%"
+                ></div>
               </div>
-              <div class="gameloader-progress-info neutral-content">
-                Downloading files shortly :)
+              <progress
+                id="loadingBar"
+                class="progress w-56"
+                value="100"
+                max="100"
+              ></progress>
+              <div
+                id="loadingText"
+                class="gameloader-progress-info neutral-content mt-2"
+              >
+                Game Loading...
               </div>
             </div>
           </div>
