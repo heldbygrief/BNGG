@@ -1,8 +1,6 @@
 console.log("Loaded index.js");
 
 document.addEventListener("DOMContentLoaded", function () {
-    console.log("DOM loaded and parsed.");
-
     const otherGamesButton = document.getElementById("otherGamesButton");
     const themeButton = document.getElementById("themeButton");
     const lightIcon = document.getElementById("lightIcon");
@@ -29,11 +27,9 @@ document.addEventListener("DOMContentLoaded", function () {
         setTheme("dark");
     }
 
-    // Initialize a variable to store the content of the div
     let currentContent = loadingText.innerHTML;
 
-    // Function to handle content changes and log them
-    function handleLoaderTextChange(mutationsList) {
+    function handleLoaderTextChange(mutationsList, observer) {
         mutationsList.forEach((mutation) => {
             if (mutation.type === "childList" || mutation.type === "subtree") {
                 const newContent = loadingText.innerHTML;
@@ -42,17 +38,23 @@ document.addEventListener("DOMContentLoaded", function () {
                     const parts = newContent.split(":");
                     const lastPart = parts[parts.length - 1].trim();
                     rawPercent = lastPart.replace("%", "").trim();
+                    if (
+                        isNaN(rawPercent) ||
+                        parseInt(rawPercent) !== Number(rawPercent)
+                    ) {
+                        observer.disconnect();
+                        console.log("Disconnected the observer.");
+                        return;
+                    }
                     loadingBar.value = rawPercent;
                 }
             }
         });
     }
+
     const observer = new MutationObserver(handleLoaderTextChange);
     const config = { childList: true, subtree: true };
     observer.observe(loadingText, config);
-
-    // Need to stop the observer later
-    // observer.disconnect();
 
     themeButton.addEventListener("click", () => {
         const currentTheme =
