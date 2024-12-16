@@ -27,21 +27,23 @@
           class="jss1 flex items-center justify-center bg-base-100 text-base-content"
         >
           <div
-            class="items-center justify-center gap-10 bg-base-200 p-5 rounded-xl shadow-md mr-4"
+            class="items-center justify-center gap-10 bg-base-200 p-5 rounded-xl shadow-md mr-4 border-current border-2"
           >
             <!-- Loader Logo -->
-            <div class="flex btn btn-ghost ml-4 text-3xl bg-base-100">
+            <div
+              class="flex btn btn-ghost ml-4 text-3xl bg-base-100 border-current border-2"
+            >
               <span class="text-success">BUILD</span>
               <span class="text-info">NOW</span>
-              <span class="text-neutral-content">GG</span>
+              <span class="text-primary">GG</span>
             </div>
             <!-- Loading Status -->
-            <div class="gameloader mt-6">
+            <div class="flex justify-center mt-6">
               <div class="gameloader-progressbar invisible">
                 <div class="gameloader-progressbar-progress"></div>
               </div>
-              <div class="gameloader-progress-info">
-                Will download files shortly :)
+              <div class="gameloader-progress-info neutral-content">
+                Downloading files shortly :)
               </div>
             </div>
           </div>
@@ -53,27 +55,21 @@
       >
         <div class="flex justify-between items-center h-full w-full">
           <!-- Bar logo -->
-          <div class="flex btn btn-ghost ml-4 text-1xl">
+          <div class="flex btn btn-ghost ml-4 text-1xl border-current border-2">
             <span class="text-success">BUILD</span>
             <span class="text-info">NOW</span>
-            <span class="text-neutral-content">GG</span>
+            <span class="text-primary">GG</span>
           </div>
           <!-- Bar icons -->
-          <div class="flex space-x-4 ml-auto mr-4">
-            <button id="other-games-button" class="btn btn-ghost">
+          <div
+            class="flex space-x-4 ml-auto mr-4 rounded-xl border-current border-2"
+          >
+            <button id="otherGamesButton" class="btn btn-ghost">
               <i class="fa-solid fa-gamepad"></i>
             </button>
-            <button id="theme-toggle" class="btn btn-ghost">
-              <i
-                id="theme-toggle-light-icon"
-                class="fa-solid fa-sun hidden"
-                fill="currentColor"
-              ></i>
-              <i
-                id="theme-toggle-dark-icon"
-                class="fa-solid fa-moon"
-                fill="currentColor"
-              ></i>
+            <button id="themeButton" class="btn btn-ghost">
+              <i id="lightIcon" class="fa-solid fa-sun fill-current hidden"></i>
+              <i id="darkIcon" class="fa-solid fa-moon fill-current"></i>
             </button>
             <button
               id="fullScreenButton"
@@ -90,7 +86,7 @@
       <div id="game-footer-more-url" class="invisible"></div>
       <div class="gameloader-game-name invisible"></div>
     </div>
-
+    <script src="scripts/index.js"></script>
     <script type="text/javascript">
       var options = {
         author: "Vseigru, cloudirector",

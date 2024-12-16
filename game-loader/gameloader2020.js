@@ -408,9 +408,8 @@ GameInit = {
                         _0x2fa159 = 0;
 
                     // basic decode log
-                    console.log("Attempting log without key...");
                     // console.log(_0x422df6(0x13b, "h0Sm"));
-                    console.log(_0x422df6(0x1cc, "IKaJ"));
+                    // console.log(_0x422df6(0x1cc, "IKaJ"));
 
                     while (!![]) {
                         switch (_0x59107c[_0x2fa159++]) {
