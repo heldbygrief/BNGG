@@ -11,8 +11,8 @@
 
 - [ ] Better console log
 - [ ] Optimize File Loading
-- [X] Remake Loader frontend
-  - [X] RosieUI
+- [x] Remake Loader frontend
+  - [x] RosieUI
   - [x] FontAwesome
 - [ ] Learn the BuildNow Framework
 - [ ] Deobfsucate the GameLoader and GameLoader Helper
